@@ -1,6 +1,6 @@
 # Tag & Bear
 ![カバー画像](cover.jpg)
-Photo by [Hans-Jurgen Mager](https://unsplash.com/@hansjurgen007?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/t?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+<small>Photo by [Hans-Jurgen Mager](https://unsplash.com/@hansjurgen007?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/t?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)</small>
 
 ## 概要
 マークダウンファイルの末尾に、カレントディレクトリからの相対パスをハッシュタグ（#tag/sub_tag）として一括で追記するスクリプトです。
@@ -12,20 +12,23 @@ Photo by [Hans-Jurgen Mager](https://unsplash.com/@hansjurgen007?utm_source=unsp
 - `./develop/python/readme.md`は`readme.md`の末尾に`#develop/python`が追記される
 
 ## 特徴
+- ハッシュタグにスペース` `が含まれる場合、アンダーバー`_`に置換えられます。
 - ファイルのタイムスタンプは維持されます。 <sup><a name="1">[^1](#notes_1)</a></sup>
 - 入力ソースのディレクトリ構造を維持する or 維持しないを選択できます。 <sup><a name="2">[^2](#notes_2)</a></sup>
 - ディレクトリ構造を維持しない場合、ファイルは１つのディレクトリに集められます。 <sup><a name="3">[^3](#notes_3)</a></sup>
 
 ## 使い方
+- Python 3.7.5以上に切り替える
 - マークダウンファイルを含むディレクトリを`/tag-and-bear/src`にコピーする
 - Terminalで`/tag-and-bear/bin`に移動し`main.py`を実行する
 - `/tag-and-bear/dest`に出力される
 
 例：
 ```
-cp ~/Desktop/MyNote ~/Desktop/tag-and-bear/src
-cd ~/Desktop/tag-and-bear/bin
-python main.py
+$ pyenv global 3.7.5
+$ cp ~/MyDocuments/MyNote ~/Desktop/tag-and-bear/src
+$ cd ~/Desktop/tag-and-bear/bin
+$ python main.py
 🐻 < Done!
 ```
 
@@ -63,7 +66,7 @@ Pythonの勉強をしながら作成したため意図しない動作や不具�
 - [GitHub](https://github.com/kskg)
 - [Twitter](https://github.com/kskg)
 
-ご意見、ご感想はお気軽にください。開発の参考にさせていただきます。
+ご意見、ご感想はお気軽にください。開発の参考にさせていただきます🤓
 
 ## ライセンス
 MIT
