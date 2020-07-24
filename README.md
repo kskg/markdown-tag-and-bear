@@ -17,18 +17,22 @@ Photo by [Hans-Jurgen Mager](https://unsplash.com/@hansjurgen007?utm_source=unsp
 - ディレクトリ構造を維持しない場合、ファイルは１つのディレクトリに集められます。 <sup><a name="3">[^3](#notes_3)</a></sup>
 
 ## 使い方
-マークダウンファイルを含むディレクトリを`/tag-and-bear/src`にコピーする（Finderでも可）
+- Terminalでマークダウンファイルを含むディレクトリを`/tag-and-bear/src`にコピーする（Finderでも可）
 ```
 cp ~/Desktop/develop ~/Desktop/tag-and-bear/src
 ```
 
-Terminalで`/tag-and-bear/bin`に移動し`main.py`を実行する
+- Terminalで`/tag-and-bear/bin`に移動する
 ```
 cd ~/Desktop/tag-and-bear/bin
+```
+
+- Terminalで`main.py`を実行する
+```
 python main.py
 ```
 
-`/tag-and-bear/dest`に出力される
+- `/tag-and-bear/dest`に出力される
 
 ## 開発環境
 - MacOS 10.15.5
