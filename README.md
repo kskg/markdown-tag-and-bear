@@ -1,6 +1,6 @@
 # Tag & Bear
 ![カバー画像](cover.jpg)
-<small>Photo by [Hans-Jurgen Mager](https://unsplash.com/@hansjurgen007?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/t?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)</small>
+Photo by [Hans-Jurgen Mager](https://unsplash.com/@hansjurgen007?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/t?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 ## 概要
 マークダウンファイルの末尾に、カレントディレクトリからの相対パスをハッシュタグ（#tag/sub_tag）として一括で追記するスクリプトです。
@@ -48,7 +48,7 @@ Mac Appのマークダウンエディタ[Bear](https://bear.app)に、大量の�
 - 元のディレクトリ構造を再現するには手動でタグを付ける必要がある。
 
 4つ目の問題に関してはメモを複数選択して一括でタグを付ける事はできました。  
-ただし先にタグを用意しておく必要がある＆ディレクトリが複数あったので。自動化したいという思いが強かったのです。
+ただし、先にタグを用意しておく必要がある＆ディレクトリが大量にあったため、自動化したいという思いが強かったのです。
 
 これらを解決するために以前から興味のあったPythonの勉強も兼ねて、はじめてPythonでプログラムを書いてみました。  
 一人でも多く同じ問題に悩む人がいなくなる事を願います🐻
@@ -64,7 +64,7 @@ Pythonの勉強をしながら作成したため意図しない動作や不具�
 
 ## 作者
 - [GitHub](https://github.com/kskg)
-- [Twitter](https://github.com/kskg)
+- [Twitter](https://twitter.com/kskg)
 
 ご意見、ご感想はお気軽にください。開発の参考にさせていただきます🤓
 
