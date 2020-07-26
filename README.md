@@ -60,8 +60,8 @@ Since I created it while studying Python, there is a possibility of unintended b
 Therefore, please use it at your own risk. We recommend you to back up the code when you use it.
 
 ## Footnotes
-<a name="notes_1">[^1](#1)</a>: To be precise, we get the date the file was last modified and the date it was last opened before adding the hashtag, and then revert it back to its original state after we add it.
-<a name="notes_2">[^2](#2)</a>: The default setting is to keep the file structure. You can change it from `settings.ini`.
+<a name="notes_1">[^1](#1)</a>: To be precise, we get the date the file was last modified and the date it was last opened before adding the hashtag, and then revert it back to its original state after we add it.  
+<a name="notes_2">[^2](#2)</a>: The default setting is to keep the file structure. You can change it from `settings.ini`.  
 <a name="notes_3">[^3](#3)</a>: The file name is numbered if the same file name exists in the output destination.
 
 ## Author
