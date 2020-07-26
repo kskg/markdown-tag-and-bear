@@ -41,7 +41,7 @@ $ python main.py
 It probably won't work on Windows/Linux at this time, but it will be supported in an update.
 
 ## Development Background
-I tried to import a large number of markdown files into the Mac App markdown editor [Bear] (https://bear.app) in bulk.  
+I tried to import a large number of markdown files into the Mac App markdown editor [Bear](https://bear.app) in bulk.  
 However, I noticed that there was a problem after importing.
 
 - Bear's import feature does not recognize subdirectories.
