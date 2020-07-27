@@ -17,7 +17,7 @@ e.g.
 - If the hashtag contains a space ` `, it will be replaced with an underbar `_`.
 - The file's timestamp is preserved. <sup><a name="1">[^1](#notes_1)</a></sup>
 - You can choose to "keep" or "not keep" the input source directory structure. <sup><a name="2">[^2](#notes_2)</a></sup>
-- If you choose "Don't keep" directory structure, the files are collected in one directory. <sup><a name="3">[^3](#notes_3)</a></sup>
+- If you choose "not keep" directory structure, the files are collected in one directory. <sup><a name="3">[^3](#notes_3)</a></sup>
 
 ## Usage.
 - Switch to Python 3.7.5 or higher
