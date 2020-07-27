@@ -5,7 +5,7 @@
 Photo by [Hans-Jurgen Mager](https://unsplash.com/@hansjurgen007?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/t?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 ## Overview
-This is a script to add the relative path from the current directory to the end of the markdown file as a hashtag (#tag/sub_tag).
+This is a script to convert the relative path from the current directory to a hashtag (#tag/sub_tag) at the end of the markdown file.
 The hashtags are added with the following specifications.
 
 e.g.

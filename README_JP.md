@@ -5,7 +5,7 @@
 Photo by [Hans-Jurgen Mager](https://unsplash.com/@hansjurgen007?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/t?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 ## 概要
-マークダウンファイルの末尾に、カレントディレクトリからの相対パスをハッシュタグ（#tag/sub_tag）として一括で追記するスクリプトです。
+マークダウンファイルの末尾に、カレントディレクトリからの相対パスをハッシュタグ（#tag/sub_tag）に変換して追記するスクリプトです。
 ハッシュタグは以下のような仕様で追記されます。
 
 例：
