@@ -9,9 +9,9 @@ This is a script to convert the relative path from the current directory to a ha
 The hashtags are added with the following specifications.
 
 e.g.
-- `. /readme.md` will not be added.
-- `. /develop/readme.md` is appended to `readme.md` with `#develop` at the end.
-- `. /develop/python/readme.md` is appended to `readme.md` with `#develop/python` at the end.
+- `./readme.md` will not be added.
+- `./develop/readme.md` is appended to `readme.md` with `#develop` at the end.
+- `./develop/python/readme.md` is appended to `readme.md` with `#develop/python` at the end.
 
 ## Features
 - If the hashtag contains a space ` `, it will be replaced with an underbar `_`.
